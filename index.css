@@ -1,0 +1,134 @@
+body {
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(200,200,200);
+    margin: 0px; 
+}
+
+ul, li {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration : none;
+    text-transform: capitalize;
+}
+
+.navbar{
+    background-color: rgb(0,0,0);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-logo {
+    padding: 10px;
+}
+
+.menu{
+    padding: 10px ;
+    padding-left: 570px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 30px;
+}    
+
+.menu li a{
+    display: block;
+    line-height: 30px;
+}                        
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0,0,0);
+    /* padding: 20px 0; */
+    min-width: 320px;
+    align-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 40px;
+}
+
+.dropdown-content a {
+    display: block;
+    /* position: absolute; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-content a:hover {
+    color: orangered;
+}
+
+.menu a:hover{
+    color: orangered;
+}
+
+.menu li:hover .dropdown-content {
+    display: block;
+}
+
+.menu li:hover .dropdown-content :after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: orangered;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    opacity: 0;
+}
+
+.menu li:hover .dropdown-content:hover :after {
+    opacity: 1;
+}
+
+.menu li a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: orangered;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    opacity: 0;
+}
+
+.menu li a:hover :after {
+    opacity: 1;
+}
+
+
+
+/* .dropdown :hover .dropdown-content a {
+    display: block;
+} */
+
+

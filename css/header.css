@@ -1,0 +1,193 @@
+body {
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(241,241,241);
+    margin: 0px; 
+}
+
+ul, li {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+sup{
+    font-size:12px;
+    color: rgb(255, 108, 48);
+    margin-bottom:10px;
+}
+
+a {
+    color: white;
+    text-decoration : none;
+    text-transform: capitalize;
+}
+
+.container {
+    display:block;
+}
+
+.navbar{
+    position:fixed;
+    background-color: rgb(0,0,0);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    z-index: 3;
+}
+
+.header-logo {
+    /* padding: 10px; */
+    display: inline-block;
+}
+
+.travel-mate sup{
+    display: block;
+
+}
+
+#M {
+    background-color: rgb(255, 108, 48);
+    font-family: Script MT;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 4px;
+}
+
+.menu{
+    display: inline-block;
+    padding-left: 570px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 30px;
+}  
+
+.menu li a{
+    display: block;
+    line-height: 35px;
+} 
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    float: right;
+    right: 0;
+    background-color: rgb(0,0,0);
+    min-width: 250px;
+    /* align-content: right; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 2px;
+    top: 40px;
+}
+
+.dropdown-content li a {
+    display: block;
+    /* position: absolute; */
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.menu-destination{
+    display:inline-block;
+}
+
+.dropdown-destination {
+    display: none;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    position: absolute;
+    float: right;
+    right:0;
+    background-color: rgb(0,0,0);
+    min-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 2px;
+    top: 40px;
+    opacity:0;
+}
+
+.menu-destination:hover .dropdown-destination {
+    display:grid;
+    opacity: 1;
+}
+
+.menu a:hover{
+    color: rgb(255, 108, 48);
+}
+
+.menu li:hover .dropdown-content {
+    display: block;
+}
+.menu li:hover .dropdown-content li:after{
+    display: none !important;
+}
+
+.dropdown-content a:hover, .dropdown-destination a:hover{
+    color:rgb(14, 7, 4);
+    /* text-decoration: underline; */
+}
+
+.menu li :after , .menu-destination:hover .dropdown-destination :after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 108, 48);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.menu li:hover :after {
+    opacity: 1;
+}
+
+#header-banner{
+    width: 100%;
+    height: 900px;
+    display: block;
+    overflow:hidden;
+}
+
+#banner-image {
+    /* background-image: url("../assets/sanjay-hona.jpg"); */
+    background-size: cover;
+    width: 1519px;
+    height: 850;
+    display: block;
+    overflow:hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 50px;
+}
