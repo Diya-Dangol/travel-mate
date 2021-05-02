@@ -1,6 +1,5 @@
 </body>
-
-
-<!--Footer content goes here-->
-
+<footer>
+    <!--Footer content goes here-->
+</footer>
 </html>
