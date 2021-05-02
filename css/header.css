@@ -134,6 +134,9 @@ p{
     top: 38px;
 }
 
+.dropdown-content li{
+    width: 100%;
+}
 .dropdown-content li a {
     display: block;
     /* position: absolute; */

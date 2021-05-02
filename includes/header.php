@@ -23,7 +23,7 @@
                     home
                     <span class="caret"></span>
                 </a>
-                <ul class="dropdown-content" style="display: block;">
+                <ul class="dropdown-content">
                     <li><a href="#">Default Home</a></li>
                     <li><a href="#">Alternate Home page</a></li>
                     <li><a href="#">Alternate Home page 1</a></li>
