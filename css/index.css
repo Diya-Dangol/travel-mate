@@ -196,10 +196,14 @@ animation-duration: 1.5s;
     margin-left: 16px;
 }
 
+.button i {
+    margin-left: 6px;
+}
+
 #pushable {
     background-color: rgb(255, 255, 255);
-    border-radius: 12px;
-    border: rgb(253, 199, 177);
+    border-radius: 15px;
+    border: none;
     padding: 0;
     cursor: pointer;
     box-shadow: -4px -4px 8px rgb(255, 255, 255);
@@ -207,9 +211,8 @@ animation-duration: 1.5s;
 }
 #front {
     display: block;
-    padding: 12px 42px;
-    border-radius: 12px;
-    /* font-size: 16px; */
+    padding: 12px 25px;
+    border-radius: 15px;
     background-color:rgb(255, 108, 48);
     color: white;
     box-shadow: 4px 4px 8px rgb(198, 195, 189);
@@ -226,7 +229,6 @@ animation-duration: 1.5s;
     text-align:center; 
     transform: translate(0%, -400%);
     width: 100%;
-    /* z-index: 3; */
 }
   
 /* The dots/bullets/indicators */
@@ -261,6 +263,92 @@ background-color: rgb(255, 108, 48);
     margin-top: 11px;
     color: rgb(112, 112, 112);
 }
+
+
+/* Float three columns side by side */
+.column {
+    float: left;
+    width: 398px;
+    height: 565px;
+    margin: 0px 0px 41px 41px;
+}
+
+/* add top margin */
+.row {
+    margin-top: 50px;
+    align-content: center;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 398px;
+    height: 565px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, 1));
+    overflow: hidden;
+}
+
+.column i{ 
+    position: absolute;
+    height: 20px;
+    width: 20px; 
+    padding: 10px;        
+    border-radius: 20px;
+    background-color: rgb(255, 108, 48);
+    transform: translate(-225px, 250px);
+    opacity: 0;
+}
+
+.column p{
+    position: absolute;
+    transform: translate(40px, -60px);
+    text-shadow:rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+   object-fit: cover;
+   opacity: 0.6;
+}
+
+.star {
+    margin-left: 15px;
+}
+
+.column:hover i {
+    opacity:1;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+/* ratings */
+.checked{
+    color: rgb(255, 108, 48);
+}
+
+.container .button {
+    /* float: right; */
+    margin-left: 45%;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+
+
 
 
 
