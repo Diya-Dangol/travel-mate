@@ -83,7 +83,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="popular-destination">
         <div class="heading">
             <h2>popular destinations
                 <hr>
