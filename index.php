@@ -7,27 +7,27 @@
 
         <div class="slideshow-container">
 
-        <div class="mySlides fade">
-            <img src="assets/sanjay-hona.jpg" style="width:100%; height: 900px;" >
-        </div>
+            <div class="mySlides fade">
+                <img src="assets/sanjay-hona.jpg" style="width:100%; height: 900px;" >
+            </div>
 
-        <div class="mySlides fade">
-            <img src="assets/beijing.jpg" style="width:100%; height: 900px">
-        </div>
+            <div class="mySlides fade">
+                <img src="assets/beijing.jpg" style="width:100%; height: 900px">
+            </div>
 
-        <div class="mySlides fade">
-            <img src="assets/leonard.jpg" style="width:100%; height: 900px">
-        </div>
+            <div class="mySlides fade">
+                <img src="assets/leonard.jpg" style="width:100%; height: 900px">
+            </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
         </div>
         
         <div class="dotted-slider">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
 
         <div id="banner-title">
@@ -93,100 +93,64 @@
         <div class="row">
             <div class="column">
                 <div class="card"> 
-                    <img src="assets/kathmandu.jpg" alt=""  width="398px" height="565px">
+                    <img src="assets/kathmandu.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         nepal 
-                        <span class="star">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
+                       <span>05 palces</span>
                     </p>
                 </div>
             </div>
 
             <div class="column">
                 <div class="card">
-                    <img src="assets/japan.jpg" alt=""  width="398px" height="565px">
+                    <img src="assets/japan.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         japan 
-                        <span class="star">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
+                        <span>05 palces</span>
                     </p>
                 </div>
             </div>
             
             <div class="column">
                 <div class="card">
-                    <img src="assets/beijing.jpg" alt=""  width="398px" height="565px">
+                    <img src="assets/beijing.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         beijing
-                        <span class="star">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
+                        <span>05 palces</span>
                     </p>
                 </div>
             </div>
             
             <div class="column">
                 <div class="card">
-                    <img src="assets/leonard.jpg" alt=""  width="398px" height="565px">
+                    <img src="assets/leonard.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         paris 
-                        <span class="star">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
+                        <span>05 palces</span>
                     </p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="assets/bhaktapur.jpg" alt=""  width="398px" height="565px">
+                    <img src="assets/bhaktapur.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         nepal 
-                        <span class="star">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
+                        <span>05 palces</span>
                     </p>
                 </div>
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="assets/bhutan.jpg" alt=""  width="398px" height="565px">
+                    <img src="assets/bhutan.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         bhutan 
-                        <span class="star">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
+                        <span>05 palces</span>
                     </p>
                 </div>
             </div>          
@@ -195,6 +159,18 @@
         <button class="button" id="pushable">
             <a href="trip-list.php" id="front" >more places <i class='fa fa-arrow-right'></i> </a>
         </button>
+    </div>
+
+    <div class="banner">
+        <img src="assets/nepal.jpg" style="width:100%; height: 300px;">
+        <div class="heading">
+            <h2>your next destination
+                <hr>
+            </h2>
+            <button class="button" id="pushable">
+                <a href="trip-list.php" id="front" >all packages<i class='fa fa-arrow-right'></i> </a>
+            </button>
+        </div>
     </div>
 
    <script>
