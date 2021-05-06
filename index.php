@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <!-- header banner with slide show images -->
     <div id="header-banner">
 
         <div class="slideshow-container">
@@ -74,15 +75,18 @@
                     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                 </div>
 
-                <button class="button" id="pushable">
-                    <a href="nepal.php" id="front" >seacrh <i class="fa fa-search"></i> </a>
+                <button id="button" class="pushable" >
+                    <span class="front">
+                        <a href="nepal.php"> search <i class="fa fa-search"></i></a>
+                    </span>
                 </button>
                 
             </form>
         </div>
     </div>
 
-    <div class="container">
+    <!-- popular destination container -->
+    <div id="container">
         <div class="heading">
             <h2>popular destinations
                 <hr>
@@ -90,89 +94,185 @@
             </h2>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <div class="card"> 
+        <section class="row">
+            <article class="column">
+                <article class="card"> 
                     <img src="assets/kathmandu.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         nepal 
                        <span>05 palces</span>
                     </p>
-                </div>
-            </div>
+                </article>
+            </article>
 
-            <div class="column">
-                <div class="card">
+            <article class="column">
+                <article class="card">
                     <img src="assets/japan.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         japan 
                         <span>05 palces</span>
                     </p>
-                </div>
-            </div>
+                </article>
+            </article>
             
-            <div class="column">
-                <div class="card">
+            <article class="column">
+                <article class="card">
                     <img src="assets/beijing.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         beijing
                         <span>05 palces</span>
                     </p>
-                </div>
-            </div>
+                </article>
+            </article>
             
-            <div class="column">
-                <div class="card">
+            <article class="column">
+                <article class="card">
                     <img src="assets/leonard.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         paris 
                         <span>05 palces</span>
                     </p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
+                </article>
+            </article>
+            <article class="column">
+                <article class="card">
                     <img src="assets/bhaktapur.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         nepal 
                         <span>05 palces</span>
                     </p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
+                </article>
+            </article>
+            <article class="column">
+                <article class="card">
                     <img src="assets/bhutan.jpg" alt=""  width="350px" height="450px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         bhutan 
                         <span>05 palces</span>
                     </p>
-                </div>
-            </div>          
-        </div>
-
-        <button class="button" id="pushable">
-            <a href="trip-list.php" id="front" >more places <i class='fa fa-arrow-right'></i> </a>
+                </article>
+            </article>  
+            
+        </section>        
+        <button id="button" class="pushable" >
+            <span class="front">
+                <a href="trip-list.php" id="front" >more places <i class='fa fa-arrow-right'></i> </a>
+            </span>
         </button>
     </div>
 
+    <!-- banner image with button view all packages -->
     <div class="banner">
         <img src="assets/nepal.jpg" style="width:100%; height: 300px;">
-        <div class="heading">
+        <div class="banner-heading">
             <h2>your next destination
                 <hr>
             </h2>
-            <button class="button" id="pushable">
-                <a href="trip-list.php" id="front" >all packages<i class='fa fa-arrow-right'></i> </a>
+
+            <button id="button" class="pushable" >
+                <span class="front">
+                     <a href="trip-list.php" id="front" >all packages<i class='fa fa-arrow-right'></i> </a>
+                </span>
             </button>
+
         </div>
     </div>
 
+     <!-- popular packages container -->
+    <div id="container-grey">
+        <div class="heading">
+            <h2>popular packages
+                <hr>
+                <p>choose your next package</p>
+            </h2>
+        </div>
+        <section class="row">
+            <article class="column">
+                <article class="card"> 
+                    <img src="assets/kathmandu.jpg" alt=""  width="350px" height="200px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        2 reviews
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                    </p>
+                </article>
+                 <article class="content">
+                    <h3>title</h3>
+                    <text>nepal</text>
+                    <p>
+                        loream ipsum fhasfjfaj
+                    </p>
+                </article> 
+            </article>
+
+            <article class="column">
+                <article class="card">
+                    <img src="assets/japan.jpg" alt=""  width="350px" height="200px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        2 reviews
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                    </p>
+                </article>
+                 <article class="content">
+                    <h3>title</h3>
+                    <text>nepal</text>
+                    <p>
+                        loream ipsum fhasfjfaj
+                    </p>
+                </article> 
+            </article>
+            
+            <article class="column">
+                <article class="card">
+                    <img src="assets/beijing.jpg" alt=""  width="350px" height="200px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        2 reviews
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                    </p>
+                </article>
+                <article class="content">
+                    <h3>title</h3>
+                    <text>nepal</text>
+                    <p>
+                        loream ipsum fhasfjfaj
+                    </p>
+                </article> 
+            </article>            
+        </section> 
+
+        <button id="button" class="pushable" >
+            <span class="front">
+                <a href="trip-list.php" id="front" >more places <i class='fa fa-arrow-right'></i> </a>
+            </span>
+        </button>
+    </div>
+    
    <script>
         var slideIndex = 1;
         showSlides(slideIndex);
