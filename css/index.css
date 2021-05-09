@@ -1,24 +1,25 @@
 h1 {
     display: block;
+    text-align: center;
     text-transform: capitalize;
     font-size: 45px;
-    text-align: center;
+    font-weight:500;
 }
 
 h2{
     display: block;
+    text-align: center;
     text-transform: capitalize;
     font-size: 32px;
     font-weight: 500;
     color: rgb(68,68,68);
-    text-align: center;
 }
 
 h3 {
     margin: 0px;
     font-size: 20px;
-    font-weight: 500;
-    text-align: center;
+    font-weight:500;
+    color: rgb(68,68,68);
     text-transform: capitalize;
 }
 
@@ -26,6 +27,15 @@ p{
     font-family: open sans;
     font-weight: normal;
     font-size: 16px;
+    color: rgb(75, 75, 75);
+    text-transform: capitalize;
+}
+
+text {
+    font-family: open sans;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(151, 151, 151);
     text-transform: capitalize;
 }
 
@@ -36,6 +46,11 @@ hr {
     height: 3px;
     align-items: center;
 }
+
+img {
+    object-fit: cover;
+    opacity: 0.7;
+ }
 
 
 /* Slideshow container */
@@ -86,9 +101,9 @@ animation-duration: 1.5s;
 
 /* header-banner-container */
 #header-banner{
-    /* width: 100%; */
     height: 900px;
     display: block;
+    background: rgb(0, 0, 0);
     overflow:hidden;
 }
 
@@ -98,7 +113,14 @@ animation-duration: 1.5s;
     top: 50%;    
     left: 50%;
     transform: translate(-50%, -70%);
-    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    color:rgb(255, 255, 255);
+    /* place-content: center; */
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+#banner-title .banner-h3{
+    text-align: center;
+    color:rgb(255, 255, 255);
 }
 
 #banner-title hr{
@@ -113,7 +135,7 @@ animation-duration: 1.5s;
     position: absolute;
     top: 80%;
     left: 100px;
-    /* right: 100px; */
+    right: 100px;
     transform: translate(0%, 60%);
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -151,12 +173,12 @@ animation-duration: 1.5s;
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
 }
 
-/* price range slider */
+/* price range slider for travel search */
 .slidecontainer {
     width: 100%;
 }
 
-/* slider  for sliding ranges in price/rate */
+/* slider  for sliding ranges in price/rate for travel search */
 .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -177,7 +199,7 @@ animation-duration: 1.5s;
     appearance: none;
     width: 15px;
     height: 25px;
-    background: #04AA6D;
+    background: rgb(255, 108, 48);
     cursor: pointer;
 }
 
@@ -188,32 +210,54 @@ animation-duration: 1.5s;
     cursor: pointer;
 }
 
-/* search-button */
-.button {
+/* button */
+#button {
     font-size: 16px;
     font-family: open sans;
     text-transform: capitalize;
     margin-left: 16px;
 }
 
-#pushable {
-    background-color: rgb(255, 255, 255);
+#button i {
+    margin-left: 6px;
+}
+
+/* button bottom layer */
+.pushable {
+    background-color: rgb(224, 95, 36);
     border-radius: 12px;
-    border: rgb(253, 199, 177);
+    border: none;
     padding: 0;
     cursor: pointer;
-    box-shadow: -4px -4px 8px rgb(255, 255, 255);
+    box-shadow: -4px -4px 8px rgb(rgb(224, 95, 36));
     outline-offset: 4px;
 }
-#front {
+/* button top layer */
+.front {
     display: block;
-    padding: 12px 42px;
+    padding: 12px 30px;
     border-radius: 12px;
-    /* font-size: 16px; */
     background-color:rgb(255, 108, 48);
+    border: 1px rgb(235, 220, 214);
     color: white;
     box-shadow: 4px 4px 8px rgb(198, 195, 189);
     transform: translate(2px, 2px);
+}
+
+/* button style on action */
+.front {
+transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.pushable:hover .front {
+transform: translate(4px, 4px);
+transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
 }
 
 .pushable:active .front {
@@ -226,30 +270,36 @@ animation-duration: 1.5s;
     text-align:center; 
     transform: translate(0%, -400%);
     width: 100%;
-    /* z-index: 3; */
 }
   
 /* The dots/bullets/indicators */
 .dot {
-cursor: pointer;
-height: 10px;
-width: 10px;
-margin: 0 2px;
-background-color: rgb(228,217, 217);
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: rgb(228,217, 217);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 /* color change on hover on dot */
 .active, .dot:hover {
-background-color: rgb(255, 108, 48);
+    background-color: rgb(255, 108, 48);    
 }
 
 /* popular destination */
-.container {
+#container {
     display: block;
     padding: 100px;
+    height: auto;
+    background: rgb(249, 249, 249);
+    place-content: center;
+}
+
+.heading{
+    place-content: center;
 }
 
 .heading hr{
@@ -259,23 +309,162 @@ background-color: rgb(255, 108, 48);
 .heading p {
     text-align: center;
     margin-top: 11px;
-    color: rgb(112, 112, 112);
+    /* color: rgb(112, 112, 112); */
+}
+
+.row {
+    width: 100%;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat( auto-fit, 350px);
+    place-content: center;
+    gap: 60px;
+}
+
+.column {
+    background: rgb(255, 255, 255);
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.card {
+    border-radius: 7px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.card i{ 
+    position: absolute;
+    place-content: center;
+    height: 20px;
+    width: 20px; 
+    padding: 10px;        
+    border-radius: 20px;
+    background-color: rgb(255, 108, 48);
+    transform: translate(-200px, 0px);
+    opacity: 0;
+}
+
+.card p{
+    position: absolute;
+    transform: translate(40px, -60px);
+    font-weight:450;
+    color:rgb(255, 255, 255);
+    text-shadow:1px 1px rgba(0, 0, 0, 0.411);
+}
+
+.card:hover {
+    background:linear-gradient(rgba(255, 107, 48, 0.623), rgb(0,0,0));
+}
+
+.card:hover i {
+    place-content: center;
+    transform: translate(-200px, 80px);
+    animation-name: visibility;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    opacity:1;
+}
+
+.card span{
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+#container-grey {
+    display: block;
+    padding: 100px;
+    height: auto;
+    place-content: center;
+}
+
+#container-grey .heading{
+    text-align: center;
+}
+
+#container-grey .column {
+    height: 500px;
+}
+
+/*  ratings */
+.star span{
+    margin-left: 5px;
+}
+
+/* ratings checked */
+.checked{
+    color: rgb(255, 238, 0);
+}
+
+.column .content {
+    float: left;
+    margin: 20px;
+    /* padding: 1em; */
+}
+
+.content p {
+    text-align: justify;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    color: rgb(255, 108, 48);
+}
+
+.icon i{
+    font-size: 40px;
+    border:rgb(255, 108, 48);
+}
+
+/*  popular destination's button more places */
+#container #button, #container-grey #button {
+    margin-left: 43%;
+    margin-top: 60px;
 }
 
 
 
 
-@-webkit-keyframes fade {
+/* banner image along with button all packages */
+.banner{
+    background:rgb(0, 0, 0);
+    /* height: 350px; */
+}
+
+.banner .title{
+    float: left;
+    margin-left: 20%;
+    transform: translateY(-290%);
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+}
+
+.banner #button {
+    float: right;
+    margin-right: 20%;
+    /* transform: translate(450%, -400%); */
+    transform: translateY(-400%);
+}
+
+
+
+
+/* header banner slide show */
+@keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-    }
+}
+
+@keyframes visibility{
+    from {transform: translate(-200px, 0px); opacity: 0.3}
+    to {transform: translate(-200px, 80px); opacity: 1}
+}
     
-    @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-    }
-    
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-    }
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+}
