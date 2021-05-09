@@ -34,7 +34,7 @@
         <div id="banner-title">
             <h1>never stop exploring</h1>
             <hr>
-            <h3>grab your bag packs and enjoy holidays</h3>
+            <h3 class="banner-h3">grab your bag packs and enjoy holidays</h3>
         </div>
 
         <div id="travel-search">
@@ -65,13 +65,14 @@
                         <option value="city-tour">city tour</option>
                         <option value="adventour-tour">adventour tour</option>
                         <option value="couple-tour">couple tour</option>
-                        <option value="group-tour">group tour</option>
-                        
+                        <option value="group-tour">group tour</option>                        
                     </select>
                 </div>
 
                 <div class="form-group" >
                     <label>Price range</label>
+                    <br/>
+                    <text>399-5000</text>
                     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                 </div>
 
@@ -170,8 +171,8 @@
     <!-- banner image with button view all packages -->
     <div class="banner">
         <img src="assets/nepal.jpg" style="width:100%; height: 300px;">
-        <div class="banner-heading">
-            <h2>your next destination
+        <div class="heading">
+            <h2 class="title">your next destination
                 <hr>
             </h2>
 
@@ -193,9 +194,10 @@
             </h2>
         </div>
         <section class="row">
+
             <article class="column">
                 <article class="card"> 
-                    <img src="assets/kathmandu.jpg" alt=""  width="350px" height="200px">
+                    <img src="assets/kathmandu.jpg" alt=""  width="350px" height="180px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         2 reviews
@@ -209,17 +211,23 @@
                     </p>
                 </article>
                  <article class="content">
-                    <h3>title</h3>
+                    <h3>kathmandu</h3>
                     <text>nepal</text>
                     <p>
-                        loream ipsum fhasfjfaj
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
+                    <article class="icon">
+                    <i class="fa fa-clock"></i>
+                    <i class="fa fa-calendar"></i>
+                    <i class="fa fa-grades"></i>
+                    <i class="fa fa-departure"></i>
+                    </article>
                 </article> 
             </article>
 
             <article class="column">
                 <article class="card">
-                    <img src="assets/japan.jpg" alt=""  width="350px" height="200px">
+                    <img src="assets/bhutan.jpg" alt=""  width="350px" height="180px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         2 reviews
@@ -233,17 +241,17 @@
                     </p>
                 </article>
                  <article class="content">
-                    <h3>title</h3>
-                    <text>nepal</text>
+                    <h3>tiger nest monastary</h3>
+                    <text>bhutan</text>
                     <p>
-                        loream ipsum fhasfjfaj
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
                 </article> 
             </article>
             
             <article class="column">
                 <article class="card">
-                    <img src="assets/beijing.jpg" alt=""  width="350px" height="200px">
+                    <img src="assets/beijing.jpg" alt=""  width="350px" height="180px">
                     <i class="fa fa-binoculars"></i>
                     <p>
                         2 reviews
@@ -257,10 +265,82 @@
                     </p>
                 </article>
                 <article class="content">
-                    <h3>title</h3>
-                    <text>nepal</text>
+                    <h3>palace of heaven</h3>
+                    <text>China</text>
                     <p>
-                        loream ipsum fhasfjfaj
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
+                    </p>
+                </article> 
+            </article>  
+
+            <article class="column">
+                <article class="card">
+                    <img src="assets/japan.jpg" alt=""  width="350px" height="180px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        2 reviews
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                    </p>
+                </article>
+                <article class="content">
+                    <h3>title goes here</h3>
+                    <text>japan</text>
+                    <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
+                    </p>
+                </article> 
+            </article>   
+
+            <article class="column">
+                <article class="card">
+                    <img src="assets/snow.jpg" alt=""  width="350px" height="180px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        2 reviews
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                    </p>
+                </article>
+                <article class="content">
+                    <h3>snow house</h3>
+                    <text>europe</text>
+                    <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
+                    </p>
+                </article> 
+            </article>     
+
+            <article class="column">
+                <article class="card">
+                    <img src="assets/polynesia.jpg" alt=""  width="350px" height="180px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        2 reviews
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                    </p>
+                </article>
+                <article class="content">
+                    <h3>polynesia</h3>
+                    <text>france</text>
+                    <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
                 </article> 
             </article>            
@@ -272,6 +352,19 @@
             </span>
         </button>
     </div>
+
+    <!-- card banner -->
+    <div class="banner">
+        <img src="assets/vacations.jpg" style="width:100%; height: 300px;">
+        <div class="heading">
+            <h2 class="title">
+                we accept
+                <hr>
+            </h2>
+        </div>
+    </div>
+
+    
     
    <script>
         var slideIndex = 1;

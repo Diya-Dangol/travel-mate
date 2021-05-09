@@ -1,18 +1,18 @@
 h1 {
     display: block;
+    text-align: center;
     text-transform: capitalize;
     font-size: 45px;
     font-weight:500;
-    text-align: center;
 }
 
 h2{
     display: block;
+    text-align: center;
     text-transform: capitalize;
     font-size: 32px;
     font-weight: 500;
-    color: rgb(21, 20, 20);
-    text-align: center;
+    color: rgb(68,68,68);
 }
 
 h3 {
@@ -33,9 +33,10 @@ p{
 
 text {
     font-family: open sans;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 12px;
     color: rgb(151, 151, 151);
+    text-transform: capitalize;
 }
 
 hr {
@@ -112,7 +113,14 @@ animation-duration: 1.5s;
     top: 50%;    
     left: 50%;
     transform: translate(-50%, -70%);
-    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    color:rgb(255, 255, 255);
+    /* place-content: center; */
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+#banner-title .banner-h3{
+    text-align: center;
+    color:rgb(255, 255, 255);
 }
 
 #banner-title hr{
@@ -191,7 +199,7 @@ animation-duration: 1.5s;
     appearance: none;
     width: 15px;
     height: 25px;
-    background: #04AA6D;
+    background: rgb(255, 108, 48);
     cursor: pointer;
 }
 
@@ -281,14 +289,6 @@ transition:
     background-color: rgb(255, 108, 48);    
 }
 
-#container-grey {
-    display: block;
-    padding: 100px;
-    height: auto;
-    /* background: rgb(249, 249, 249); */
-    place-content: center;
-}
-
 /* popular destination */
 #container {
     display: block;
@@ -335,11 +335,6 @@ transition:
     overflow: hidden;
 }
 
-.content {
-    /* color:rgb(0, 0, 0); */
-    padding: 1em;
-}
-
 .card i{ 
     position: absolute;
     place-content: center;
@@ -356,7 +351,8 @@ transition:
     position: absolute;
     transform: translate(40px, -60px);
     font-weight:450;
-    /* text-shadow:rgba(0, 0, 0, 0.404); */
+    color:rgb(255, 255, 255);
+    text-shadow:1px 1px rgba(0, 0, 0, 0.411);
 }
 
 .card:hover {
@@ -377,6 +373,21 @@ transition:
     font-weight: normal;
 }
 
+#container-grey {
+    display: block;
+    padding: 100px;
+    height: auto;
+    place-content: center;
+}
+
+#container-grey .heading{
+    text-align: center;
+}
+
+#container-grey .column {
+    height: 500px;
+}
+
 /*  ratings */
 .star span{
     margin-left: 5px;
@@ -387,11 +398,35 @@ transition:
     color: rgb(255, 238, 0);
 }
 
+.column .content {
+    float: left;
+    margin: 20px;
+    /* padding: 1em; */
+}
+
+.content p {
+    text-align: justify;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    color: rgb(255, 108, 48);
+}
+
+.icon i{
+    font-size: 40px;
+    border:rgb(255, 108, 48);
+}
+
 /*  popular destination's button more places */
 #container #button, #container-grey #button {
     margin-left: 43%;
     margin-top: 60px;
 }
+
+
 
 
 /* banner image along with button all packages */
@@ -400,7 +435,7 @@ transition:
     /* height: 350px; */
 }
 
-.banner h2{
+.banner .title{
     float: left;
     margin-left: 20%;
     transform: translateY(-290%);
