@@ -134,9 +134,8 @@ animation-duration: 1.5s;
 #travel-search {
     position: absolute;
     top: 80%;
-    left: 100px;
-    right: 100px;
-    transform: translate(0%, 60%);
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     background-color: rgb(255, 255, 255);
     color: rgb(0,0,0);
@@ -401,24 +400,66 @@ transition:
 .column .content {
     float: left;
     margin: 20px;
-    /* padding: 1em; */
 }
 
 .content p {
     text-align: justify;
 }
 
+/* .content hr {
+    width: 400px;
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+    border: none;
+} */
+
 .icon{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
     color: rgb(255, 108, 48);
+    position: relative;
 }
 
 .icon i{
     font-size: 40px;
     border:rgb(255, 108, 48);
 }
+
+
+.content .icon :after {
+    display: block;
+    content: "";
+    height: 0.5px;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    /* z-index: 3; */
+    opacity: 1;
+}
+
+.price-wrap {
+    margin-top: 5px;
+    display: flex;
+}
+
+.price-wrap p{
+    color: rgb(255, 108, 48);
+    font-weight: 500;
+}
+
+.price-wrap .price {
+    color: rgb(172, 172, 172);
+    font-weight: normal;
+}
+
+.price-wrap #button {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
 
 /*  popular destination's button more places */
 #container #button, #container-grey #button {
