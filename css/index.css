@@ -570,8 +570,8 @@ section.range-slider input[type="range"]::-ms-thumb {
 }
 section.range-slider input[type=range]::-moz-range-track {
     background-color: rgba(0, 0, 0, 1);
-    border: 0;
     position: relative;
+    border: 0;
     z-index: -1;
 }
 
