@@ -1,50 +1,50 @@
 h1 {
     display: block;
-    text-align: center;
-    text-transform: capitalize;
     font-size: 45px;
     font-weight:500;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 h2{
+    color: rgb(68,68,68);
     display: block;
-    text-align: center;
-    text-transform: capitalize;
     font-size: 32px;
     font-weight: 500;
-    color: rgb(68,68,68);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 h3 {
-    margin: 0px;
+    color: rgb(68,68,68);
     font-size: 20px;
     font-weight:500;
-    color: rgb(68,68,68);
+    margin: 0px;
     text-transform: capitalize;
 }
 
 p{
+    color: rgb(75, 75, 75);
     font-family: open sans;
     font-weight: normal;
     font-size: 16px;
-    color: rgb(75, 75, 75);
     text-transform: capitalize;
 }
 
 text {
+    color: rgb(151, 151, 151);
     font-family: open sans;
     font-weight: 500;
     font-size: 12px;
-    color: rgb(151, 151, 151);
     text-transform: capitalize;
 }
 
 hr {
+    align-items: center;
     background-color: rgb(255, 108, 48);
     border: none;
-    width: 60px;
     height: 3px;
-    align-items: center;
+    width: 60px;
 }
 
 img {
@@ -55,31 +55,31 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
-    position: relative;
     margin: auto;
+    position: relative;
+    width: 100%;
 }
   
 /* Next & previous buttons */
 .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
+    border-radius: 0 3px 3px 0;
     color: white;
+    cursor: pointer;
     font-weight: bold;
     font-size: 18px;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    margin-top: -22px;
     user-select: none;
+    width: auto;
   }
   
 /* Position the "next button" to the right */
 .next {
-    right: 50px;;
     border-radius: 3px 0 0 3px;
+    right: 50px;
 }
 
 .prev {
@@ -93,54 +93,53 @@ img {
 
 /* Fading animation */
 .fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
 }
 
 /* header-banner-container */
 #header-banner{
-    height: 900px;
-    display: block;
     background: rgb(0, 0, 0);
+    display: block;
+    height: 900px;
     overflow:hidden;
 }
 
 /* banner-title */
 #banner-title {
-    position: absolute;
-    top: 50%;    
-    left: 50%;
-    transform: translate(-50%, -70%);
     color:rgb(255, 255, 255);
-    /* place-content: center; */
+    left: 50%;
+    position: absolute;
     text-shadow: 1px 1px rgba(0,0,0,0.2);
+    top: 50%;    
+    transform: translate(-50%, -70%);
 }
 
 #banner-title .banner-h3{
-    text-align: center;
     color:rgb(255, 255, 255);
+    text-align: center;
 }
 
 #banner-title hr{
+    left: 50%;
     position:absolute;
     top: 62%;    
-    left: 50%;
     transform: translate(-40%, -40%);
 }
 
 /* search tour */
 #travel-search {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    background-color: rgb(255, 255, 255);
     color: rgb(0,0,0);
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
     justify-content: center;
+    left: 50%;
+    position: absolute;
+    padding: 20px;
+    top: 80%;
+    transform: translateX(-50%);
 }
 
 .input-title{
@@ -151,25 +150,25 @@ animation-duration: 1.5s;
 .form-group {
     display: inline-block;
     justify-content: center;   
-    width: 200px;
     height: 40px;
     margin-left: 10px;
+    width: 200px;
 }
 
 .form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    text-transform:capitalize;
-    line-height: 1.42857143;
-    color: #888;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 0px;
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    color: #888;
+    display: block;
+    height: 34px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-transform:capitalize;
+    width: 100%;
 }
 
 /* price range slider for travel search */
@@ -179,14 +178,14 @@ animation-duration: 1.5s;
 
 /* slider  for sliding ranges in price/rate for travel search */
 .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 15px;
     background: #d3d3d3;
-    outline: none;
+    height: 15px;
     opacity: 0.7;
-    -webkit-transition: .2s;
+    outline: none;
     transition: opacity .2s;
+    width: 100%;
+    -webkit-transition: .2s;
+    -webkit-appearance: none;
 }
 
 .slider:hover {
@@ -194,27 +193,27 @@ animation-duration: 1.5s;
 }
 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
     appearance: none;
-    width: 15px;
-    height: 25px;
-    background: rgb(255, 108, 48);
     cursor: pointer;
+    background: rgb(255, 108, 48);
+    height: 25px;
+    width: 15px;
+    -webkit-appearance: none;
 }
 
 .slider::-moz-range-thumb {
-    width: 15px;
-    height: 25px;
     background: #04AA6D;
     cursor: pointer;
+    height: 25px;
+    width: 15px;
 }
 
 /* button */
 #button {
-    font-size: 16px;
     font-family: open sans;
-    text-transform: capitalize;
+    font-size: 16px;
     margin-left: 16px;
+    text-transform: capitalize;
 }
 
 #button i {
@@ -224,22 +223,22 @@ animation-duration: 1.5s;
 /* button bottom layer */
 .pushable {
     background-color: rgb(224, 95, 36);
-    border-radius: 12px;
     border: none;
-    padding: 0;
-    cursor: pointer;
+    border-radius: 12px;
     box-shadow: -4px -4px 8px rgb(rgb(224, 95, 36));
+    cursor: pointer;
     outline-offset: 4px;
+    padding: 0;
 }
 /* button top layer */
 .front {
-    display: block;
-    padding: 12px 30px;
-    border-radius: 12px;
     background-color:rgb(255, 108, 48);
     border: 1px rgb(235, 220, 214);
-    color: white;
+    border-radius: 12px;
     box-shadow: 4px 4px 8px rgb(198, 195, 189);
+    color: white;
+    display: block;
+    padding: 12px 30px;
     transform: translate(2px, 2px);
 }
 
@@ -260,8 +259,8 @@ transition:
 }
 
 .pushable:active .front {
-    transform: translate(-1px, -1px);
     box-shadow: none;
+    transform: translate(-1px, -1px);
 }
 
 /*  the dots/bullets/indicators */
@@ -273,14 +272,14 @@ transition:
   
 /* The dots/bullets/indicators */
 .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
     background-color: rgb(228,217, 217);
     border-radius: 50%;
+    cursor: pointer;
     display: inline-block;
+    height: 10px;
+    margin: 0 2px;
     transition: background-color 0.6s ease;
+    width: 10px;
 }
 
 /* color change on hover on dot */
@@ -290,10 +289,10 @@ transition:
 
 /* popular destination */
 #container {
-    display: block;
-    padding: 100px;
-    height: auto;
     background: rgb(249, 249, 249);
+    display: block;
+    height: auto;
+    padding: 100px;
     place-content: center;
 }
 
@@ -308,50 +307,49 @@ transition:
 .heading p {
     text-align: center;
     margin-top: 11px;
-    /* color: rgb(112, 112, 112); */
 }
 
 .row {
-    width: 100%;
     display: grid;
-    margin-top: 50px;
-    grid-template-columns: repeat( auto-fit, 350px);
-    place-content: center;
     gap: 60px;
+    grid-template-columns: repeat( auto-fit, 350px);
+    margin-top: 50px;
+    place-content: center;
+    width: 100%;
 }
 
 .column {
     background: rgb(255, 255, 255);
-    height: 450px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 450px;
 }
 
 .card {
+    background: rgb(0, 0, 0);
     border-radius: 7px;
     text-align: center;
-    background: rgb(0, 0, 0);
     overflow: hidden;
 }
 
 .card i{ 
-    position: absolute;
-    place-content: center;
-    height: 20px;
-    width: 20px; 
-    padding: 10px;        
     border-radius: 20px;
     background-color: rgb(255, 108, 48);
-    transform: translate(-200px, 0px);
+    height: 20px;
+    width: 20px; 
     opacity: 0;
+    padding: 10px;        
+    place-content: center;
+    position: absolute;
+    transform: translate(-200px, 0px);
 }
 
 .card p{
-    position: absolute;
-    transform: translate(40px, -60px);
-    font-weight:450;
     color:rgb(255, 255, 255);
+    font-weight:450;
+    position: absolute;
     text-shadow:1px 1px rgba(0, 0, 0, 0.411);
+    transform: translate(40px, -60px);
 }
 
 .card:hover {
@@ -359,23 +357,23 @@ transition:
 }
 
 .card:hover i {
+    animation-direction: normal;
+    animation-duration: 0.5s;
+    animation-name: visibility;
+    opacity:1;
     place-content: center;
     transform: translate(-200px, 80px);
-    animation-name: visibility;
-    animation-duration: 0.5s;
-    animation-direction: normal;
-    opacity:1;
 }
 
 .card span{
-    margin-left: 15px;
     font-weight: normal;
+    margin-left: 15px;
 }
 
 #container-grey {
     display: block;
-    padding: 100px;
     height: auto;
+    padding: 100px;
     place-content: center;
 }
 
@@ -384,7 +382,7 @@ transition:
 }
 
 #container-grey .column {
-    height: 500px;
+    padding-bottom: 20px;
 }
 
 /*  ratings */
@@ -406,48 +404,43 @@ transition:
     text-align: justify;
 }
 
-/* .content hr {
-    width: 400px;
-    margin-top: 20px;
-    color: rgb(100, 100, 100);
-    border: none;
-} */
-
 .icon{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
     color: rgb(255, 108, 48);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
     position: relative;
 }
 
 .icon i{
-    font-size: 40px;
     border:rgb(255, 108, 48);
+    font-size: 40px;
 }
 
 
 .content .icon :after {
-    display: block;
-    content: "";
-    height: 0.5px;
-    width: 100%;
     background-color: rgb(221, 221, 221);
-    position: absolute;
     bottom: -10px;
+    content: "";
+    display: block;
+    height: 0.5px;
     left: 0;
-    /* z-index: 3; */
+    position: absolute;
     opacity: 1;
+    width: 100%;
 }
 
 .price-wrap {
-    margin-top: 5px;
     display: flex;
+    margin-top: 5px;
+    position: relative;
 }
 
 .price-wrap p{
     color: rgb(255, 108, 48);
+    display: inline-block;
     font-weight: 500;
+    position: absolute;
 }
 
 .price-wrap .price {
@@ -456,8 +449,22 @@ transition:
 }
 
 .price-wrap #button {
+    display: inline-block;
     margin-left: 10px;
     margin-top: 0px;
+    position: absolute;
+    transform: translate(60px, -40px);
+}
+
+/* button bottom layer */
+.price-wrap .pushable {
+    border-radius: 20px;
+    /* padding: 12px 20px; */
+}
+/* button top layer */
+.price-wrap .front {
+    border-radius: 20px;
+    padding: 6px 20px;
 }
 
 
@@ -477,11 +484,11 @@ transition:
 }
 
 .banner .title{
+    color: rgb(255, 255, 255);
     float: left;
+    font-weight: 1000;
     margin-left: 20%;
     transform: translateY(-290%);
-    color: rgb(255, 255, 255);
-    font-weight: 1000;
 }
 
 .banner #button {
@@ -491,43 +498,45 @@ transition:
     transform: translateY(-400%);
 }
 
+/* banner image along with button all packages */
+
 
 /*Price range Design CSS Starts*/
 
 
 section.range-slider {
-    position: relative;
     float: left;
-    width: 100%;
+    position: relative;
     /*text-align: center;*/
+    width: 100%;
 }
 section.range-slider input[type="range"] {
+    background: rgba(0,0,0,0.05);
+    border: none;
+    border-radius: 14px;
+    height: 20px;
+    left: 0;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0;
     pointer-events: none;
     position: absolute;
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: red;
-    border: none;
-    border-radius: 14px;
-    background: rgba(0,0,0,0.05);
-    overflow: hidden;
-    left: 0;
     top: 25px;
     width: 100%;
-    outline: none;
-    height: 20px;
-    margin: 0;
-    padding: 0;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: red;
 }
 section.range-slider input[type="range"]::-webkit-slider-thumb {
-    pointer-events: all;
-    position: relative;
-    z-index: 1;
-    outline: 0;
-    -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
     border: none;
     border-radius: 14px;
+    height: 20px;
+    outline: 0;
+    pointer-events: all;
+    position: relative;
+    width: 20px;
+    -webkit-appearance: none;
+    z-index: 1;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dad8da), color-stop(100%, #413f41));
     /* android <= 2.2 */
     background-image: -webkit-linear-gradient(top, #dad8da 0, #413f41 100%);
@@ -536,41 +545,41 @@ section.range-slider input[type="range"]::-webkit-slider-thumb {
     /* W3C */
 }
 section.range-slider input[type="range"]::-moz-range-thumb {
-    pointer-events: all;
-    position: relative;
-    z-index: 10;
-    -moz-appearance: none;
-    width: 20px;
-    height: 20px;
     border: none;
     border-radius: 14px;
+    height: 20px;
+    pointer-events: all;
+    position: relative;
+    width: 20px;
+    -moz-appearance: none;
+    z-index: 10;
     background-image: linear-gradient(to bottom, #dad8da 0, #413f41 100%);
     /* W3C */
 }
 section.range-slider input[type="range"]::-ms-thumb {
-    pointer-events: all;
-    position: relative;
-    z-index: 10;
-    -ms-appearance: none;
-    width: 20px;
-    height: 20px;
     border-radius: 14px;
     border: 0;
+    height: 20px;
+    pointer-events: all;
+    position: relative;
+    -ms-appearance: none;
+    width: 20px;
+    z-index: 10;
     background-image: linear-gradient(to bottom, #dad8da 0, #413f41 100%);
     /* W3C */
 }
 section.range-slider input[type=range]::-moz-range-track {
-    position: relative;
-    z-index: -1;
     background-color: rgba(0, 0, 0, 1);
+    position: relative;
     border: 0;
+    z-index: -1;
 }
 
 
 section.range-slider input[type=range]:last-of-type::-moz-range-track {
-    -moz-appearance: none;
     background: none transparent;
     border: 0;
+    -moz-appearance: none;
 }
 section.range-slider input[type=range]::-moz-focus-outer {
     border: 0;
