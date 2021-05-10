@@ -565,6 +565,8 @@ section.range-slider input[type=range]::-moz-range-track {
     background-color: rgba(0, 0, 0, 1);
     border: 0;
 }
+
+
 section.range-slider input[type=range]:last-of-type::-moz-range-track {
     -moz-appearance: none;
     background: none transparent;
@@ -572,7 +574,6 @@ section.range-slider input[type=range]:last-of-type::-moz-range-track {
 }
 section.range-slider input[type=range]::-moz-focus-outer {
     border: 0;
-}
 
 
 
