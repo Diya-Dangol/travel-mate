@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    
     function getVals(){
         // Get slider values
         var parent = this.parentNode;

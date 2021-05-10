@@ -5,7 +5,6 @@
     
     <!-- header banner with slide show images -->
     <div id="header-banner">
-
         <div class="slideshow-container">
 
             <div class="mySlides fade">
@@ -78,6 +77,7 @@
                     </section>
                    <!-- <div id="time-range">
                         <span class="slider-time">9</span> - <span class="slider-time2">5</span>
+
                         </p>
                         <div class="sliders_step1">
                             <div id="slider-range"></div>
@@ -203,7 +203,7 @@
         </div>
     </div>
 
-    <!-- popular packages container -->
+     <!-- popular packages container -->
     <div id="container-grey">
         <div class="heading">
             <h2>popular packages
@@ -256,6 +256,7 @@
                             <text>Adventurous</text>
                         </div>
                     </article>
+                    <!-- <hr/> -->
                     <article class="price-wrap">
                         <p>Rs.8000 <span class="price">/per person</span> </p>
                         <button id="button" class="pushable" >
@@ -282,42 +283,12 @@
                         </span>
                     </p>
                 </article>
-                <article class="content">
+                 <article class="content">
                     <h3>tiger nest monastary</h3>
                     <text>bhutan</text>
                     <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
-                    <article class="icon">
-                        <div id="icon-text">
-                            <i class="fa fa-clock-o"></i>
-                            <br/>
-                            <text>3 days</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-calendar"></i>
-                            <br/>
-                            <text>12 Jan - 16 Jan</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-plane"></i>
-                            <br/>
-                            <text>Nepal</text>
-                        </div>                    
-                        <div id="icon-text">
-                            <i class="fa fa-compass"></i>
-                            <br/>
-                            <text>Adventurous</text>
-                        </div>
-                    </article>
-                    <article class="price-wrap">
-                        <p>Rs.8000 <span class="price">/per person</span> </p>
-                        <button id="button" class="pushable" >
-                            <span class="front">
-                                <a href="nepal.php">Book now</a>
-                            </span>
-                        </button>
-                    </article>
                 </article> 
             </article>
             
@@ -342,36 +313,6 @@
                     <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
-                    <article class="icon">
-                        <div id="icon-text">
-                            <i class="fa fa-clock-o"></i>
-                            <br/>
-                            <text>3 days</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-calendar"></i>
-                            <br/>
-                            <text>12 Jan - 16 Jan</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-plane"></i>
-                            <br/>
-                            <text>Nepal</text>
-                        </div>                    
-                        <div id="icon-text">
-                            <i class="fa fa-compass"></i>
-                            <br/>
-                            <text>Adventurous</text>
-                        </div>
-                    </article>
-                    <article class="price-wrap">
-                        <p>Rs.8000 <span class="price">/per person</span> </p>
-                        <button id="button" class="pushable" >
-                            <span class="front">
-                                <a href="nepal.php">Book now</a>
-                            </span>
-                        </button>
-                    </article>
                 </article> 
             </article>  
 
@@ -396,36 +337,6 @@
                     <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
-                    <article class="icon">
-                        <div id="icon-text">
-                            <i class="fa fa-clock-o"></i>
-                            <br/>
-                            <text>3 days</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-calendar"></i>
-                            <br/>
-                            <text>12 Jan - 16 Jan</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-plane"></i>
-                            <br/>
-                            <text>Nepal</text>
-                        </div>                    
-                        <div id="icon-text">
-                            <i class="fa fa-compass"></i>
-                            <br/>
-                            <text>Adventurous</text>
-                        </div>
-                    </article>
-                    <article class="price-wrap">
-                        <p>Rs.8000 <span class="price">/per person</span> </p>
-                        <button id="button" class="pushable" >
-                            <span class="front">
-                                <a href="nepal.php">Book now</a>
-                            </span>
-                        </button>
-                    </article>
                 </article> 
             </article>   
 
@@ -450,37 +361,6 @@
                     <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
-
-                    <article class="icon">
-                        <div id="icon-text">
-                            <i class="fa fa-clock-o"></i>
-                            <br/>
-                            <text>3 days</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-calendar"></i>
-                            <br/>
-                            <text>12 Jan - 16 Jan</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-plane"></i>
-                            <br/>
-                            <text>Nepal</text>
-                        </div>                    
-                        <div id="icon-text">
-                            <i class="fa fa-compass"></i>
-                            <br/>
-                            <text>Adventurous</text>
-                        </div>
-                    </article>
-                    <article class="price-wrap">
-                        <p>Rs.8000 <span class="price">/per person</span> </p>
-                        <button id="button" class="pushable" >
-                            <span class="front">
-                                <a href="nepal.php">Book now</a>
-                            </span>
-                        </button>
-                    </article>
                 </article> 
             </article>     
 
@@ -505,37 +385,6 @@
                     <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci...
                     </p>
-
-                    <article class="icon">
-                        <div id="icon-text">
-                            <i class="fa fa-clock-o"></i>
-                            <br/>
-                            <text>3 days</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-calendar"></i>
-                            <br/>
-                            <text>12 Jan - 16 Jan</text>
-                        </div>
-                        <div id="icon-text">
-                            <i class="fa fa-plane"></i>
-                            <br/>
-                            <text>Nepal</text>
-                        </div>                    
-                        <div id="icon-text">
-                            <i class="fa fa-compass"></i>
-                            <br/>
-                            <text>Adventurous</text>
-                        </div>
-                    </article>
-                    <article class="price-wrap">
-                        <p>Rs.8000 <span class="price">/per person</span> </p>
-                        <button id="button" class="pushable" >
-                            <span class="front">
-                                <a href="nepal.php">Book now</a>
-                            </span>
-                        </button>
-                    </article>
                 </article> 
             </article>            
         </section> 
@@ -554,6 +403,60 @@
             <h2 class="title">
                 we accept
                 <hr>
+            </h2>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div id="container">
+        <div class="heading">
+            <h2>about us
+                <hr>
+                <p>lets introduce ourselves</p>
+            </h2>
+        </div>
+
+        <section class="row">
+            <article class="column">
+                <article class="card"> 
+                    <img src="assets/kathmandu.jpg" alt=""  width="350px" height="450px">
+                    <i class="fa fa-binoculars"></i>
+                    <p>
+                        nepal 
+                       <span>05 palces</span>
+                    </p>
+                </article>
+            </article>
+        </section>
+    </div>
+
+    <!-- card banner -->
+    <div class="banner">
+        <img src="assets/vacations.jpg" style="width:100%; height: 300px;">
+        <div class="heading">
+            <h2 class="title">
+                we accept
+                <hr>
+            </h2>
+        </div>
+    </div>
+   
+    <!-- testimonials-->
+    <div id="container-grey">
+        <div class="heading">
+            <h2>about us
+                <hr>
+                <p>lets introduce ourselves</p>
+            </h2>
+        </div>
+    </div>
+    
+    <!-- blog-->
+    <div id="container">
+        <div class="heading">
+            <h2>about us
+                <hr>
+                <p>lets introduce ourselves</p>
             </h2>
         </div>
     </div>
