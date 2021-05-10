@@ -1,0 +1,10 @@
+.idea/
+../node_modules/
+.jscsrc
+.jshintignore
+.DS_Store
+.env
+fabfile.pyc
+wp-config.php
+
+node_modules/
