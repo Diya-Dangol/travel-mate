@@ -70,10 +70,26 @@
                 </div>
 
                 <div class="form-group" >
+                    <p style="margin: 0">Price Range</p>
+                    <section class="range-slider">
+                        <span class="rangeValues"></span>
+                        <input value="500" min="500" max="50000" step="500" type="range">
+                        <input value="50000" min="500" max="50000" step="500" type="range">
+                    </section>
+                   <!-- <div id="time-range">
+                        <span class="slider-time">9</span> - <span class="slider-time2">5</span>
+
+                        </p>
+                        <div class="sliders_step1">
+                            <div id="slider-range"></div>
+                        </div>
+                    </div>-->
+
+                    <!--
                     <label>Price range</label>
                     <br/>
                     <text>399-5000</text>
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">-->
                 </div>
 
                 <button id="button" class="pushable" >
