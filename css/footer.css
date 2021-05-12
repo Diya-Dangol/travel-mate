@@ -1,12 +1,66 @@
 footer{
+    padding: 100px;
+    background-color: rgb(0, 0, 0);
+    /* color: rgb(255, 255, 255); */
+}
+
+footer h3, footer p, footer a{
+    color: rgb(255, 255, 255);
+}
+
+.container-footer{
+    display: grid;
+    gap:50px;
+    grid-template-columns: auto auto auto auto;
+    place-content: center;
+}
+
+.container-footer .content{
+    width: 250px;
+}
+
+footer hr{
+    background-color: rgb(68,68,68);
+    height: 0.5px;
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.copyright{
+    color: rgb(68,68,68);
+    text-align: center;
+}
+
+.container-footer span{
+    margin-left: 10px;
+}
+
+.container-footer i{
+    margin-left: 5px;
+}
+
+/* .container-footer .content :after{
+    background-color: rgb(221, 221, 221);
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+} */
+
+/* .dropdown-destination {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: rgb(0, 0, 0);
-    padding: 10px;
-}
-
-
-
-.header-logo {
-    display: grid;
-}
+    grid-template-rows: auto auto auto auto auto;
+    position: absolute;
+    float: right;
+    right:0;
+    background-color: rgb(0,0,0);
+    min-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 2px;
+    top: 40px;
+} */

@@ -2,6 +2,7 @@
     <head>
         <title>travel-mate</title>
         <link rel= "stylesheet" href="css/header.css">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
