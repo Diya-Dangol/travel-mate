@@ -536,7 +536,7 @@ transition:
     place-content: center;
 }
 
-.sub-heading h3 {
+.sub-heading {
     text-align: center;
 }
 
@@ -563,16 +563,6 @@ transition:
 
 .container-about .icon{
     margin-top: 20px;
-    place-content: center;
-}
-
-.icon{
-    color: rgb(255, 108, 48);
-    display: grid;
-    font-size: 40px;
-    gap: 20px;
-    grid-template-columns: auto auto auto auto;
-    position: relative;
     place-content: center;
 }
 
@@ -611,8 +601,6 @@ transition:
     place-content: center;
 }
 
-
-
 /*  section about us ends here  */
 
 
@@ -649,10 +637,90 @@ transition:
     transform: translate(70%, -100%);
 }
 
-
-
 /*  banner-subscribe css ends here  */
 
+/* testimonial */
+
+.testimonial img{
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    opacity: 1;
+    place-content: center;
+}
+
+.testimonial .star {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 10px;
+    place-content: center;
+}
+
+.testimonial span{
+    color: black;
+}
+
+.testimonial .checked{
+    color:rgb(255, 238, 0);
+}
+
+.testimonial #left-quote {
+    color: rgb(224, 224, 224);
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.testimonial #right-quote {
+    color: rgb(224, 224, 224);
+    float: right;
+    font-size: 20px;
+}
+/* testimonial ends here */
+
+/*  blog starts here */
+.content-blog img{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+.content-blog .icon{
+    /* color: rgb(151, 151, 151) */
+    display:block;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.content-blog .icon :after {
+    background-color: rgb(221, 221, 221);
+    bottom: 2px;
+    content: "";
+    display: block;
+    height: 0.5px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.content-blog a{
+    color:royalblue;
+    text-decoration: none;
+}
+
+.content-blog a:hover{
+    text-decoration: underline;
+}
+
+.content-blog .comment{
+    float: right;
+}
 
 
 /*Price range Design CSS Starts*/

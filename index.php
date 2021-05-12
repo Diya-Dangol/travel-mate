@@ -703,21 +703,140 @@
     <!-- testimonials-->
     <div id="container-grey">
         <div class="heading">
-            <h2>about us
+            <h2>testimonial
                 <hr>
-                <p>lets introduce ourselves</p>
+                <p>views from our excited travellers</p>
             </h2>
+        </div>
+        <div class="testimonial">
+            <article class= "row">
+                <article class="column">
+                    <img src="assets/beijing.jpg" width="100px" height="100px">
+                    <article class="content">
+                        <div class="sub-heading">
+                            <h3>john smilga</h3>
+                            <text>nepal</text>
+                        </div>
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <p>
+                            <i id="left-quote" class="fa fa-quote-left"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <i id="right-quote" class="fa fa-quote-right"></i>
+                        </p>
+                    </article>
+                </article>
+                <article class="column">
+                    <img src="assets/beijing.jpg" width="100px" height="100px">
+                    <article class="content">
+                        <div class="sub-heading">
+                            <h3>john smilga</h3>
+                            <text>nepal</text>
+                        </div>
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <p>
+                            <i id="left-quote" class="fa fa-quote-left"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <i id="right-quote" class="fa fa-quote-right"></i>
+                        </p>
+                    </article>
+                </article>
+                <article class="column">
+                    <img src="assets/beijing.jpg" width="100px" height="100px">
+                    <article class="content">
+                        <div class="sub-heading">
+                            <h3>john smilga</h3>
+                            <text>nepal</text>
+                        </div>
+                        <span class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <p>
+                            <i id="left-quote" class="fa fa-quote-left"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <i id="right-quote" class="fa fa-quote-right"></i>
+                        </p>
+                    </article>
+                </article>                
+            </article>
         </div>
     </div>
     
     <!-- blog-->
     <div id="container">
         <div class="heading">
-            <h2>about us
+            <h2>our blog
                 <hr>
-                <p>lets introduce ourselves</p>
+                <p>see our exciting blog</p>
             </h2>
         </div>
+
+        <!-- blog content -->
+        <article class= "row">
+            <article class="column">
+                <div class="content-blog">       
+                    <img src="assets/monkey.jpg" height="250px" width="300px">
+                    <article class="content">
+                        <h3>showering in the ocean</h3>
+                        <article class="icon">
+                            <text>by john smillga at 9 july 2021</text>
+                        </article>
+                        <text>in blog diary, travel</text>
+                        <text class="comment">0 comment</text>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... <a href="#">read more <i class="fa fa-arrow-right"></i></a>
+                        </p> 
+                    </article> 
+                </div>
+            </article>
+            <article class="column">
+                <div class="content-blog">       
+                    <img src="assets/monkey.jpg" height="250px" width="300px">
+                    <article class="content">
+                        <h3>showering in the ocean</h3>
+                        <article class="icon">
+                            <text>by john smillga at 9 july 2021</text>
+                        </article>
+                        <text>in blog diary, travel</text>
+                        <text class="comment">0 comment</text>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... <a href="#">read more <i class="fa fa-arrow-right"></i></a>
+                        </p> 
+                    </article> 
+                </div>
+            </article>
+            <article class="column">
+                <div class="content-blog">       
+                    <img src="assets/monkey.jpg" height="250px" width="300px">
+                    <article class="content">
+                        <h3>showering in the ocean</h3>
+                        <article class="icon">
+                            <text>by john smillga at 9 july 2021</text>
+                        </article>
+                        <text>in blog diary, travel</text>
+                        <text class="comment">0 comment</text>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... <a href="#">read more <i class="fa fa-arrow-right"></i></a>
+                        </p> 
+                    </article> 
+                </div>
+            </article>
+        </article>       
     </div>
 
     
